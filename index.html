@@ -11,23 +11,25 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 
     <!-- css link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
 
 </head>
 
 
 <body>
     <div class="top-bar">
-        <button class="btn" id="prev-page">
-            <i class="fas fa-arrow-circle-left"></i> Prev Page
-        </button>
-        <input style="padding: 0.6rem 0.5rem" type="number" value="1" id="current_page">
-        <button class="btn" id="next-page">
-            Next Page <i class="fas fa-arrow-circle-right"></i>
-        </button>
-        <span class="page-info">
-            Page <span id="page-num"></span> of <span id="page-count"></span>
-        </span>
+        <div class="singleTop">
+            <button class="btn" id="prev-page">
+                <i class="fas fa-arrow-circle-left"></i> Prev Page
+            </button>
+            <input style="padding: 0.6rem 0.5rem" type="number" value="1" id="current_page">
+            <button class="btn" id="next-page">
+                Next Page <i class="fas fa-arrow-circle-right"></i>
+            </button>
+            <span class="page-info">
+                Page <span id="page-num"></span> of <span id="page-count"></span>
+            </span>
+        </div>
     </div>
 
     <canvas id="pdf-render"></canvas>
