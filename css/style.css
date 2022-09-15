@@ -4,6 +4,19 @@
     box-sizing: border-box;
   }
   
-  
+  .top-bar {
+    background: #0e3959;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+  }
+
+  .singleTop {
+    width: 500px;
+    margin: 0 auto;
+  }
   
   
