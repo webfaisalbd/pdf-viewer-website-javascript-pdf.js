@@ -1,5 +1,7 @@
 ### pdf-viewer-website-javascript-pdf.js.
 
+### It only run on your local host, live site somehow not supported.
+
 - script file
 ```javascript
 <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
